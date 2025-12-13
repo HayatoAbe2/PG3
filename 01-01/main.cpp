@@ -40,7 +40,7 @@ int main() {
 	stations.push_back("Hamamatsucho");
 	stations.push_back("Shimbashi");
 	stations.push_back("Yurakucho");
-	
+
 	// 1970年リスト
 	std::cout << "1970 : \n";
 	for (const auto& station : stations) { // list
@@ -49,7 +49,7 @@ int main() {
 	std::cout << "----------\n";
 
 	// 1971 : 西日暮里追加
-	stations.insert(std::next(stations.begin(), 7), "Nishi-Nippori"); // std::next(a,b)はaからb個進んだイテレータを返す
+	stations.insert(std::next(stations.begin(), 7), "Nishi-Nippori"); // std::next(a , b)はaからb個進んだイテレータを返す
 
 	// 2019年リスト
 	std::cout << "2019 : \n";
@@ -59,7 +59,7 @@ int main() {
 	std::cout << "-----------\n";
 
 	// 2020 : 高輪ゲートウェイ追加
-	stations.insert(std::next(stations.begin(), 25), "Takanawa-Gateway");
+	stations.insert(std::next(stations.begin(), 25), "Takanawa Gateway");
 
 	// 2022年リスト
 	std::cout << "2022 : \n";
