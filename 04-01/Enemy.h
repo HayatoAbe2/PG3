@@ -10,7 +10,7 @@ public:
 
 	void Hit() { hp_--; }
 private:
-	Vector2 pos_ = {980,360};
+	Vector2 pos_ = { 980,360 };
 	float radius_ = 20.0f;
 	int hp_ = 3;
 };
